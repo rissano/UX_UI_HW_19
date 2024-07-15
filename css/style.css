@@ -83,6 +83,7 @@ h1 {
 .heroImg h1 {
     margin: 0 0 20px 0;
     text-align: center;
+    color: black;
 }
 
 
@@ -318,8 +319,11 @@ footer {
     margin: 0;
     gap: 20px;
     position: absolute;
-    bottom: 10px;
+    bottom: 0px;
     right: 20px;
+    background-color: #333333;
+    height: 15%;
+    align-items: center;
 }
 .footer-nav ul {
     display: flex;
@@ -328,9 +332,6 @@ footer {
     margin-right: 20px;
 }
 
-.footer-nav li {
-    margin: 0 5px;
-}
 
 a {
     text-decoration: none;
