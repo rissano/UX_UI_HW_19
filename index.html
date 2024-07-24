@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portfolio</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     </head>
@@ -63,36 +64,49 @@
             </div>
         </section>
 
-        <section class="myWork">
-            <h1>My Work</h1>
 
-            <div class="workGrid">
-                <div>
-                    <img src="../UX_UI_HW_18/images/nsa.png" alt="NSA">
-                </div>
-                <div>
-                    <h4>National Security Agency Website Redesign</h4>
-                    <p>Our redesign of the NSA website was to enhance user experience and accessibility. We focused on modernizing the interface, improving navigation, and ensuring secure and responsive design across all devices.</p>
-                    <button>View Project</button>
-                </div>
-                <div>
-                    <img src="../UX_UI_HW_18/images/planify.png" alt="Planify">
-                </div>
-                <div>
-                    <h4>Planify Travel App</h4>
-                    <p>Planify was designed to make booking trips seamless and personalized. The app tailors travel options to users' specific needs and preferences, providing an intuitive interface and a streamlined booking process. The result is a user-friendly experience that enhances travel planning efficiency.</p>
-                    <button>View Project</button>
-                </div>
-                <div>
-                    <img src="../UX_UI_HW_18/images/ncas.png" alt="NCAS">
-                </div>
-                <div>
-                    <h4>North Carolina Aquarium Society Website Redesign</h4>
-                    <p>We redesigned the North Carolina Aquarium Society's website to improve user experience and efficiency. The new design facilitates easy access to information about the society's mission and provides a streamlined process for making donations. </p>
-                    <button>View Project</button>
-                </div>
+    <!-- Cards -->
+    <div class="container-fluid content">
+        <h2 class="sectionHeading">My Work</h2>
+        <div class="row">
+          <div class="cardContainer col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+              <img src="images/Image 7-16-24 at 10.02 AM.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">NSA Website Redesign</h5>
+                <p class="card-text">Our redesign of the NSA website was to enhance user experience and accessibility. We focused on modernizing the interface, improving navigation, and ensuring secure and responsive design across all devices.</p>
+                <a href="#" class="btn btn-primary">View Project</a>
+              </div>
             </div>
-        </section>
+          </div>
+          <!-- Card 1 -->
+          <div class="cardContainer col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+              <img src="images/Image 7-16-24 at 9.55 AM (1).jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Planify Travel App</h5>
+                <p class="card-text">Planify was designed to make booking trips seamless and personalized. The app tailors travel options to users' specific needs and preferences, providing an intuitive interface and a streamlined booking process.</p>
+                <a href="#" class="btn btn-primary">View Project</a>
+              </div>
+            </div>
+          </div>
+         
+          <!-- End card 2 -->
+      
+          <!-- Card 3 -->
+          <div class="cardContainer col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+              <img src="images/Image 7-16-24 at 10.06 AM.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">NCAS Website Redesign</h5>
+                <p class="card-text">Our redesign of the NCAS's website was to improve user experience and efficiency. Our new design facilitates easy access to information and provides a streamlined process for making donations. </p>
+                <a href="#" class="btn btn-primary">View Project</a>
+              </div>
+            </div>
+          </div>
+          <!-- End card 3 -->
+        </div>
+      </div>
 
 
         <footer>
@@ -111,7 +125,9 @@
             </ul>
             <p class="copyright">Copyright 2024</p>
         </footer>
-        <script src="js/index.js"></script>   
+        <script src="js/index.js"></script> 
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>  
     </body>
 
     </html>
